@@ -4,7 +4,6 @@
     <list default="true" id="5a0cab0d-46b1-4c4a-bcef-bf41244deee3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/com/example/junitchallenge/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/com/example/junitchallenge/UtilitiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/junitchallenge/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/junitchallenge/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +50,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs">
-    <configuration name="JunitChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.junitchallenge.JunitChallenge" />
+  <component name="RunManager" selected="JUnit.All in JunitChallenge">
+    <configuration name="All in JunitChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.junitchallenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitChallenge" />
       <extension name="coverage">
         <pattern>
@@ -75,12 +69,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.junitchallenge" />
       <option name="MAIN_CLASS_NAME" value="com.example.junitchallenge.UtilitiesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="converter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest.converter_AritmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitChallenge" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +85,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.junitchallenge" />
       <option name="MAIN_CLASS_NAME" value="com.example.junitchallenge.UtilitiesTest" />
-      <option name="METHOD_NAME" value="removePairs" />
+      <option name="METHOD_NAME" value="converter_AritmeticException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTest.everyNtChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.junitchallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.junitchallenge" />
+      <option name="MAIN_CLASS_NAME" value="com.example.junitchallenge.UtilitiesTest" />
+      <option name="METHOD_NAME" value="everyNtChar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTest.nullIfOddLenght" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.junitchallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.junitchallenge" />
+      <option name="MAIN_CLASS_NAME" value="com.example.junitchallenge.UtilitiesTest" />
+      <option name="METHOD_NAME" value="nullIfOddLenght" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UtilitiesTest.removePairs" />
-        <item itemvalue="Application.JunitChallenge" />
-        <item itemvalue="JUnit.UtilitiesTest" />
+        <item itemvalue="JUnit.All in JunitChallenge" />
+        <item itemvalue="JUnit.UtilitiesTest.converter_AritmeticException" />
+        <item itemvalue="JUnit.UtilitiesTest.converter" />
+        <item itemvalue="JUnit.UtilitiesTest.nullIfOddLenght" />
+        <item itemvalue="JUnit.UtilitiesTest.everyNtChar" />
       </list>
     </recent_temporary>
   </component>
@@ -130,22 +159,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1576696673212">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1576698398609">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1576696673212" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1576696673211">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1576698398608" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1576698398607">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1576696673211" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1576696673211">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1576698398607" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1576698398607">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1576696673211" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1576696673212">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1576698398607" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1576698398608">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1576696673212" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1576698398608" />
     <state x="424" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576522123469">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
