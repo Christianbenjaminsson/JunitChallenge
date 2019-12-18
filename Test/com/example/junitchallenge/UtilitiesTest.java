@@ -14,6 +14,9 @@ public class UtilitiesTest {
         Utilities util = new Utilities();
         assertEquals("ABCDEF", util.removePairs("AABCDDEFF"));
         assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
+        assertNull("Did not get null returned when argument passed was null", util.removePairs(null));
+        assertEquals("A", util.removePairs("A"));
+        assertEquals("", util.removePairs(""));
     }
 
     @org.junit.Test
